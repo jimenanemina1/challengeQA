@@ -6,7 +6,7 @@ This is challenge oriented to understand the skills of an interviewee.
  # Requirements:
  
  - Internet access.
- - A Github account.
+ - A Github account. If you dont have one, please create one, it will take a few minutes.https://github.com/join
  - You can use the IDE you feel most comfortable with, the same goes for programming languaje and automation framework.
  - You will need to deliver a testing project and upload it to this repository on a branch named after you.
 
@@ -16,9 +16,9 @@ This is challenge oriented to understand the skills of an interviewee.
 
 - Having the https://www.mercadolibre.com.ar/ web site as web application your test will need to do:
 
- 1. Search a TERMO LUMILAGRO using the search box in the Home Page. (search query: termo lumilgro)
+ 1. Search a TERMO LUMILAGRO using the search box in the Home Page. (search query: termo lumilagro)
  2. Once you get a result list for termos lumilagro, select one which can be delivered tomorrow.
- 3. Once you are located on the item page for the 3rd termo lumilagro of the list make the following assertions:
+ 3. Once you have clicked on an item page of the list that has the previous requirements, make the following assertions:
    - Title of the item being viewed must contain "termo lumilagro" on the title.
    - Arrival date for shipment muust be tomorrow.
    - Item must have stock available (>0).
