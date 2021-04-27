@@ -11,7 +11,7 @@ This is challenge oriented to understand the skills of an interviewee on fronten
  - You can use the IDE you feel most comfortable with, the same goes for programming language and for automation framework you should use Selenium Web Driver or Cypress. Code from framework recorders is not allowed.
  - Test cases should be written in Gherkin (not a must).
  - For assertions you can use Mocka and Chai, but if you prefer other assertion library, feel free to implement them.
- - You will need to deliver a testing project and upload it to this repository on a branch named after you.
+ - You will need to deliver a testing project and upload it to this repository on a branch named after you. If you have issues pushing your results to Git you can send a zip file to your HHRR contact.
 
 # What your test needs to do:
 
