@@ -12,7 +12,7 @@ This is challenge oriented to understand the skills of an interviewee.
 
 
 
-# What your tests needs to do:
+# What your test needs to do:
 
 - Having the https://www.mercadolibre.com.ar/ web site as web application your test will need to do:
 
