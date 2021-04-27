@@ -7,7 +7,7 @@ This is challenge oriented to understand the skills of an interviewee on fronten
  
  - Internet access.
  - A Github account. If you dont have one, please create one, it will take a few minutes.https://github.com/join
- - You can use the IDE you feel most comfortable with, the same goes for programming languaje and automation framework.
+ - You can use the IDE you feel most comfortable with, the same goes for programming language and automation framework.
  - You will need to deliver a testing project and upload it to this repository on a branch named after you.
 
 
