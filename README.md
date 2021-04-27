@@ -20,9 +20,9 @@ This is challenge oriented to understand the skills of an interviewee.
  2. Once you get a result list for termos lumilagro, select one which can be delivered tomorrow.
  3. Once you have clicked on an item page of the list that has the previous requirements, make the following assertions:
    - Title of the item being viewed must contain "termo lumilagro" on the title.
-   - Arrival date for shipment muust be tomorrow.
-   - Item must have stock available (>0).
-   - 
+   - Arrival date for shipment must be tomorrow.
+   - Item must have stock available.
+   
 Here is a visual example:
 
 https://user-images.githubusercontent.com/83258669/116177969-26002080-a6eb-11eb-84a3-aa92c1c2d63f.mp4
