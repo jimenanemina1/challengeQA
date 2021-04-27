@@ -13,6 +13,6 @@ This is challenge oriented to understand the skills of an interviewee.
 
 # What you need to do:
 
-- Having the [https://www.mercadolibre.com.ar/] web site as web application to test you will need to:
+- Having the https://www.mercadolibre.com.ar/ web site as web application to test you will need to:
 
  1. Search a TERMO LUMILAGRO using the search box in the Home Page. (search query: termo lumilgro)
