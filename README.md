@@ -1,34 +1,80 @@
+🎯 QA Automation Challenge
+This challenge evaluates your ability to build structured, reliable frontend UI tests that validate both static and dynamic elements of a production web app.
 
-# challengeQA
-This is challenge oriented to understand the skills of an interviewee on frontend automation.
+Target application: OnTourTix
 
+📝 Objective
+Automate key validations on the OnTourTix homepage to demonstrate:
 
+How well you structure tests using describe / it blocks
 
- # Requirements:
- 
- - Internet access.
- - A Github account. If you dont have one, please create one, it will take a few minutes.https://github.com/join
- - You can use the IDE you feel most comfortable with, the same goes for programming language and for automation framework you should use Selenium Web Driver or Cypress. Code from framework recorders is not allowed.
- - Test cases should be written in Gherkin (not a must).
- - For assertions you can use Mocka and Chai, but if you prefer other assertion library, feel free to implement them.
- - You will need to deliver a testing project and upload it to this repository on a branch named after you. If you have issues pushing your results to Git you can send a zip file to your HHRR contact.
+How you handle element identification and interaction
 
-# What your test needs to do:
+✅ What Your Test Should Cover
+🔍 Scenario 1: Homepage UI Validation
+Your script should verify that key static elements exist on the homepage, including:
 
-- Having the https://www.mercadolibre.com.ar/ web site as web application your test will need to do:
+🧭 The header/navigation bar
 
- 1. Search a TERMO LUMILAGRO using the search box in the Home Page. (search query: termo lumilagro)
- 2. Once you get a result list for termos lumilagro, select one which can be delivered tomorrow.
- 3. Once you have clicked on an item page of the list that has the previous requirements, make the following assertions:
-   - Title of the item being viewed must contain "termo lumilagro" on the title.
-   - Arrival date for shipment must be tomorrow.
-   - Item must have stock available. 
-   
-Here is a visual example:
+🔎 The search field
 
-https://user-images.githubusercontent.com/83258669/116177969-26002080-a6eb-11eb-84a3-aa92c1c2d63f.mp4
+🎫 The event listing/grid
 
+📜 The footer
 
+Goal: Demonstrate use of Cypress (or Selenium) for presence/visibility checks and proper test block structure.
 
-If you have any further questions please email: jnemina@santandertecnologia.com.ar
+🎯 Scenario 2: Search and Navigate to Event
+Build a test that:
+
+Identifies a visible event title from the homepage
+
+Inputs that event name into the search field
+
+Executes the search and selects the correct event from the results
+
+Navigates to that event's detail page
+
+Then assert:
+
+✅ The event name appears in the detail view
+
+📍 Date and location are visible
+
+🎟️ At least one ticketing option is available
+
+Goal: Validate dynamic UI behavior and element-based navigation.
+
+🧰 Tools & Frameworks
+Use either:
+
+Cypress (recommended for JS-based workflows)
+
+Selenium WebDriver (for other language preferences)
+
+Optional but encouraged:
+
+Use Gherkin syntax for test case documentation
+
+Use Mocha + Chai, Jest, or other assertion libraries
+
+🚀 Submission Instructions
+Push your code to a GitHub branch named after you
+
+If GitHub is not an option, email a .zip of your project to your HR contact
+
+Make sure all dependencies are installable and include a README.md or instructions to run the tests
+
+📎 Requirements
+Internet access
+
+GitHub account
+
+A local development setup with your preferred IDE and Node/npm or language toolchain
+
+⚠️ Do not use test recorder-generated code
+
+📬 Questions?
+Reach out to:
+📧 jimena.nemina@prosigliere.com
 
