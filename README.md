@@ -1,80 +1,95 @@
-🎯 QA Automation Challenge
+Here's the same content converted into plain text and Markdown-friendly formatting that will render well on GitHub's `README.md` editor:
+
+---
+
+# QA Automation Challenge
+
 This challenge evaluates your ability to build structured, reliable frontend UI tests that validate both static and dynamic elements of a production web app.
 
-Target application: OnTourTix
+**Target application:** [OnTourTix](https://ontourtix.com)
 
-📝 Objective
+---
+
+## Objective
+
 Automate key validations on the OnTourTix homepage to demonstrate:
 
-How well you structure tests using describe / it blocks
+* How well you structure tests using `describe` / `it` blocks
+* How you handle element identification and interaction
 
-How you handle element identification and interaction
+---
 
-✅ What Your Test Should Cover
-🔍 Scenario 1: Homepage UI Validation
+## What Your Test Should Cover
+
+### Scenario 1: Homepage UI Validation
+
 Your script should verify that key static elements exist on the homepage, including:
 
-🧭 The header/navigation bar
+* The header/navigation bar
+* The search field
+* The event listing/grid
+* The footer
 
-🔎 The search field
+**Goal:** Demonstrate use of Cypress (or Selenium) for presence/visibility checks and proper test block structure.
 
-🎫 The event listing/grid
+---
 
-📜 The footer
+### Scenario 2: Search and Navigate to Event
 
-Goal: Demonstrate use of Cypress (or Selenium) for presence/visibility checks and proper test block structure.
-
-🎯 Scenario 2: Search and Navigate to Event
 Build a test that:
 
-Identifies a visible event title from the homepage
-
-Inputs that event name into the search field
-
-Executes the search and selects the correct event from the results
-
-Navigates to that event's detail page
+1. Identifies a visible event title from the homepage
+2. Inputs that event name into the search field
+3. Executes the search and selects the correct event from the results
+4. Navigates to that event's detail page
 
 Then assert:
 
-✅ The event name appears in the detail view
+* The event name appears in the detail view
+* Date and location are visible
+* At least one ticketing option is available
 
-📍 Date and location are visible
+**Goal:** Validate dynamic UI behavior and element-based navigation.
 
-🎟️ At least one ticketing option is available
+---
 
-Goal: Validate dynamic UI behavior and element-based navigation.
+## Tools & Frameworks
 
-🧰 Tools & Frameworks
-Use either:
+You may use:
 
-Cypress (recommended for JS-based workflows)
-
-Selenium WebDriver (for other language preferences)
+* **Cypress** (recommended for JavaScript-based automation)
+* **Selenium WebDriver** (if you prefer another language)
 
 Optional but encouraged:
 
-Use Gherkin syntax for test case documentation
+* Use **Gherkin** syntax for test case documentation
+* Use **Mocha + Chai**, **Jest**, or any preferred assertion libraries
 
-Use Mocha + Chai, Jest, or other assertion libraries
+---
 
-🚀 Submission Instructions
-Push your code to a GitHub branch named after you
+## Submission Instructions
 
-If GitHub is not an option, email a .zip of your project to your HR contact
+* Push your code to a GitHub **branch named after you**
+* If GitHub is not an option, email a `.zip` of your project to your HR contact
+* Include a `README.md` or clear instructions to install dependencies and run the tests
 
-Make sure all dependencies are installable and include a README.md or instructions to run the tests
+---
 
-📎 Requirements
-Internet access
+## Requirements
 
-GitHub account
+* Internet access
+* [GitHub account](https://github.com/join)
+* A local development setup with your preferred IDE and Node/npm or language toolchain
+* ⚠️ Do **not** use test recorder-generated code
 
-A local development setup with your preferred IDE and Node/npm or language toolchain
+---
 
-⚠️ Do not use test recorder-generated code
+## Questions?
 
-📬 Questions?
 Reach out to:
-📧 jimena.nemina@prosigliere.com
 
+**[jimena.nemina@prosigliere.com](mailto:jimena.nemina@prosigliere.com)**
+
+---
+
+Let me know if you also want a `.md` file version ready for download.
