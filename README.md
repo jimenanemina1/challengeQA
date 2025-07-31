@@ -1,5 +1,3 @@
-Here's the same content converted into plain text and Markdown-friendly formatting that will render well on GitHub's `README.md` editor:
-
 ---
 
 # QA Automation Challenge
@@ -57,7 +55,7 @@ Then assert:
 
 You may use:
 
-* **Cypress** (recommended for JavaScript-based automation)
+* **Cypress** / * **Playwright** (recommended for JavaScript-based automation)
 * **Selenium WebDriver** (if you prefer another language)
 
 Optional but encouraged:
